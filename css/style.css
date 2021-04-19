@@ -1,0 +1,170 @@
+body {
+  margin:0;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#333;
+}
+
+header {
+  background: #87ceeb;
+  color:#fff;
+  text-align: center;
+  padding-top: 64px;
+  margin-bottom: 60px;
+
+}
+
+
+
+header h1 {
+  margin:0 0 20px 0;
+  font-size: 48px;
+  /* color:red; */
+}
+
+
+header p {
+  margin:0;
+  /* color:red; */
+}
+
+header ul{
+  list-style: none;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  padding-bottom: 20px;
+  
+
+}
+
+.nav1 {
+ display: flex;
+ 
+}
+
+.nav1 li{
+  margin: 0 auto;
+  background:#7ad1f3 ;
+  color: #fff;
+}
+
+.n1 a{
+  text-decoration: none;
+}
+
+.n1 a:hover{
+  opacity: 0.8;
+}
+
+
+
+
+
+.course img{
+  width: 100%;
+}
+
+
+.course > h1{
+  text-align: center;
+  padding:64px ;
+  font-weight: normal;
+}
+
+.course .container {
+  margin: 0 32px;
+}
+
+.course p {
+  line-height: 1.8;
+}
+
+
+.course section {
+  padding-bottom: 64px;
+}
+
+.teacher{
+  background: #b8f6fc;
+}
+
+
+.teacher > h1{
+  text-align: center;
+  padding:64px ;
+  font-weight: normal;
+}
+
+
+.teacher ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding:0;
+}
+
+.teacher img {
+  width:160px;
+  border-radius: 50%;
+}
+
+.teacher h2{
+  font-size: 20px;
+}
+
+.teacher li{
+  padding-bottom: 64px;
+}
+
+
+footer{
+  padding:64px 0 ;
+  background: #323135;
+  color: #98969c;
+  text-align: center;
+
+}
+
+@media (min-width: 900px){
+  header .container {width: 800px;
+  margin:0 auto;
+  }
+ 
+ 
+  .course .container {
+    width: 800px;
+    margin:0 auto;
+  }
+
+  .course section{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .course .pic{
+    width:250px;
+    margin-top: 64px;
+  }
+
+  .course .info{
+    width:550px ;
+    padding: 30px;
+  }
+
+  .course section:nth-child(even){
+    flex-direction: row-reverse;
+  }
+
+  .teacher ul{
+    width: 800px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .teacher li {
+    width: 250px;
+  }
+}
